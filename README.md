@@ -74,6 +74,18 @@ Notes:
 
 The search box (on every page) is typo-tolerant: it ignores case, extra spaces and punctuation, and uses fuzzy matching so a misspelled or partial hackathon name still finds the right result.
 
+## Dynamic Status Engine
+
+Statuses update live relative to current local time without manual editing:
+- **Live now**: Ongoing round (`now >= start && now <= end`).
+- **Starting soon**: Starts within 72 hours (`hoursToStart <= 72`).
+- **Upcoming**: Scheduled further out.
+- **Completed**: End date has passed (`now > end`).
+
+## Animated Custom Cursor
+
+On desktop pointing devices, a physics-based trailing ring and pinpoint dot replace the default OS cursor with magnetic hover expansion and active click pulsing. Touch devices seamlessly fall back to native touch.
+
 ## Files
 
 ```

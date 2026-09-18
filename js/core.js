@@ -150,7 +150,7 @@ function searchHackathons(hackathons, query){
 
 /* ---------------- custom cursor ---------------- */
 function initCursor(){
-  if (window.matchMedia('(hover: none)').matches) return;
+  if (window.matchMedia('(hover: none), (pointer: coarse)').matches) return;
   const dot = document.createElement('div');
   dot.className = 'cursor-dot';
   const ring = document.createElement('div');
@@ -161,8 +161,25 @@ function initCursor(){
   window.addEventListener('mousemove', e => {
     mx = e.clientX; my = e.clientY;
     dot.style.transform = `translate(${mx}px, ${my}px) translate(-50%,-50%)`;
+    if (!document.body.classList.contains('cursor-active')) {
+      document.body.classList.add('cursor-active');
+    }
+  });
+
+  window.addEventListener('mousedown', () => {
+    ring.classList.add('is-down');
+  });
+  window.addEventListener('mouseup', () => {
+    ring.classList.remove('is-down');
+  });
+
+  document.addEventListener('mouseleave', () => {
+    document.body.classList.remove('cursor-active');
+  });
+  document.addEventListener('mouseenter', () => {
     document.body.classList.add('cursor-active');
   });
+
   function raf(){
     rx += (mx - rx) * 0.18;
     ry += (my - ry) * 0.18;
@@ -171,7 +188,7 @@ function initCursor(){
   }
   raf();
 
-  const hoverables = 'a, button, .filter-chip, .cal-chip, .search-input, input, .cal-btn';
+  const hoverables = 'a, button, .filter-chip, .range-btn, .cal-chip, .search-input, input, .cal-btn, [role="button"], [role="tab"]';
   document.addEventListener('mouseover', e => {
     if (e.target.closest && e.target.closest(hoverables)) ring.classList.add('is-hover');
   });

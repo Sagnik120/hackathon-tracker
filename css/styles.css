@@ -60,28 +60,47 @@ a{ color:inherit; }
 }
 
 /* ---------------- custom cursor ---------------- */
+@media (hover: hover) and (pointer: fine) {
+  body.cursor-active,
+  body.cursor-active * {
+    cursor: none !important;
+  }
+}
+
 .cursor-dot, .cursor-ring{
   position:fixed; top:0; left:0; pointer-events:none; z-index:9999;
   border-radius:50%;
   transform:translate(-50%,-50%);
   will-change:transform;
+  opacity:0;
+  transition:opacity .2s var(--ease);
 }
-.cursor-dot{ width:7px; height:7px; background:var(--indigo); }
+.cursor-dot{
+  width:6px; height:6px; background:var(--indigo);
+  transition:opacity .2s var(--ease), transform .15s var(--ease);
+}
 .cursor-ring{
-  width:34px; height:34px;
-  border:1.5px solid var(--ink);
-  opacity:.35;
-  transition:width .25s var(--ease), height .25s var(--ease), border-color .25s var(--ease), opacity .25s var(--ease), background .25s var(--ease);
+  width:32px; height:32px;
+  border:1.5px solid var(--indigo);
+  opacity:0;
+  transition:width .25s var(--ease), height .25s var(--ease), border-color .25s var(--ease), opacity .2s var(--ease), background .25s var(--ease), transform .15s var(--ease);
 }
-body.cursor-active .cursor-ring{ opacity:.6; }
+body.cursor-active .cursor-dot{ opacity:1; }
+body.cursor-active .cursor-ring{ opacity:.55; }
+
 .cursor-ring.is-hover{
-  width:56px; height:56px;
+  width:50px; height:50px;
   background:var(--indigo-soft);
   border-color:var(--indigo);
-  opacity:.9;
+  opacity:.85;
 }
+.cursor-ring.is-down{
+  transform:translate(-50%,-50%) scale(.82);
+  background:rgba(45,91,255,.18);
+}
+
 @media (hover:none), (pointer:coarse){
-  .cursor-dot, .cursor-ring{ display:none; }
+  .cursor-dot, .cursor-ring{ display:none !important; }
 }
 
 /* ---------------- layout shell ---------------- */

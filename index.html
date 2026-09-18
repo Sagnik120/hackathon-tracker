@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hack/Track — Timeline</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Hack<em>/</em>Track</a>
+    <nav class="nav">
+      <a href="index.html" class="active">Timeline</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="hackathon.html">All hackathons</a>
+    </nav>
+    <span class="live-clock"></span>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section class="hero">
+    <p class="hero-eyebrow">Every deadline, in one line</p>
+    <h1>Your hackathon<br>season, day by day.</h1>
+    <p class="lede">Every round from every hackathon you've registered for, laid out chronologically. Nothing to cross-reference, nothing to miss.</p>
+
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input class="search-input focus-ring" type="text" placeholder="Search a hackathon — typos are fine" aria-label="Search hackathons">
+      <div class="search-results"></div>
+    </div>
+
+    <div class="hero-stats" id="hero-stats"></div>
+  </section>
+
+  <div class="timeline-controls">
+    <div class="control-row">
+      <span class="control-label">Timeframe</span>
+      <div class="range-toggle" id="range-toggle" role="tablist">
+        <button class="filter-chip active" data-range="today" role="tab">From today onward</button>
+        <button class="filter-chip" data-range="all" role="tab">Whole timeline</button>
+      </div>
+    </div>
+
+    <div class="control-row">
+      <span class="control-label">Status</span>
+      <div class="filters" id="filters">
+        <button class="filter-chip active" data-filter="all">All</button>
+        <button class="filter-chip" data-filter="live">Live now</button>
+        <button class="filter-chip" data-filter="soon">Starting soon</button>
+        <button class="filter-chip" data-filter="upcoming">Upcoming</button>
+        <button class="filter-chip" data-filter="done">Completed</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline" id="timeline">
+    <div class="skeleton" style="margin-left:150px; margin-bottom:12px;"></div>
+    <div class="skeleton" style="margin-left:150px; width:70%;"></div>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">Everything here is generated from <code>data/hackathons.json</code> — edit that one file to add, remove or update a hackathon.</div>
+</footer>
+
+<script src="js/core.js"></script>
+<script src="js/timeline.js"></script>
+</body>
+</html>

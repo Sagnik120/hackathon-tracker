@@ -15,6 +15,16 @@ Then open `http://localhost:8000`.
 
 To use it from your phone: put the folder on any free static host (GitHub Pages, Netlify, Vercel — drag-and-drop the folder) and open the link on your phone. It's fully responsive.
 
+## Deploying on Render (Free)
+
+1. Sign in to [render.com](https://render.com) with GitHub.
+2. Click **New +** → **Static Site**.
+3. Select your repository (`hackathon-tracker`).
+4. Configure:
+   - **Build Command**: *(Leave empty)*
+   - **Publish Directory**: `.`
+5. Click **Create Static Site**. Any future `git push` will auto-deploy in seconds!
+
 ## The only file you ever need to edit
 
 `data/hackathons.json`

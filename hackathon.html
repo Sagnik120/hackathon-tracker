@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hack/Track — Hackathon details</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Hack<em>/</em>Track</a>
+    <nav class="nav">
+      <a href="index.html">Timeline</a>
+      <a href="calendar.html">Calendar</a>
+      <a href="hackathon.html" class="active">All hackathons</a>
+    </nav>
+    <span class="live-clock"></span>
+  </div>
+</header>
+
+<main class="shell" id="main">
+  <!-- Filled by js/detail.js: either a list of all hackathons, or one hackathon's full stage-by-stage detail -->
+  <div class="skeleton" style="margin-top:40px;"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="shell">Everything here is generated from <code>data/hackathons.json</code> — edit that one file to add, remove or update a hackathon.</div>
+</footer>
+
+<script src="js/core.js"></script>
+<script src="js/detail.js"></script>
+</body>
+</html>

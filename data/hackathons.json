@@ -1,0 +1,516 @@
+{
+  "_readme": "EDIT THIS FILE ONLY. Add, delete or change a hackathon here and every page (timeline, calendar, search, detail) updates automatically — no other file needs to change. Dates must be ISO 8601 with a timezone offset, e.g. 2026-09-17T11:00:00-04:00 for US Eastern or 2026-09-17T21:30:00+05:30 for India. If you don't know an exact time, use 09:00:00 in the right timezone and it will just show as an all-day-ish entry. Status is computed automatically from the current date/time — you never set it by hand.",
+  "hackathons": [
+    {
+      "id": "code-x-novas-2026",
+      "name": "Code-X-Novas Innovathon 2026",
+      "shortName": "Code-X-Novas",
+      "organizer": "Code-X-Novas",
+      "domain": ["Software Development", "Artificial Intelligence"],
+      "teamSize": "1–3 members",
+      "mode": "Online (final round mode not specified)",
+      "prize": "",
+      "link": "",
+      "color": "violet",
+      "rounds": [
+        {
+          "name": "Idea Submission & Screening",
+          "start": "2026-08-30T17:49:00+05:30",
+          "end": "2026-09-30T17:49:00+05:30",
+          "mode": "Online",
+          "description": "Submit an original idea addressing a real-world problem within your chosen track. Judged on problem understanding, innovation, solution quality, technical feasibility, real-world impact and scalability."
+        },
+        {
+          "name": "Shortlisting",
+          "start": "2026-10-01T21:50:00+05:30",
+          "end": "2026-10-16T21:51:00+05:30",
+          "mode": "Online",
+          "description": "Round 1 submissions are evaluated and promising teams are shortlisted on innovation, relevance, solution quality, feasibility, impact and scalability."
+        },
+        {
+          "name": "Build & Prototype",
+          "start": "2026-10-18T22:01:00+05:30",
+          "end": "2026-10-31T22:02:00+05:30",
+          "mode": "Online",
+          "description": "Shortlisted teams build a working prototype. Submit: working prototype, GitHub repo, demo video, project documentation, live demo link if available."
+        },
+        {
+          "name": "Final Demo & Pitch",
+          "start": "2026-11-05T10:06:00+05:30",
+          "end": "2026-11-09T22:07:00+05:30",
+          "mode": "Not specified",
+          "description": "Finalists present to the jury: 8 minutes demo & pitch, 5 minutes Q&A. Covers problem, solution, technology, innovation and real-world impact."
+        }
+      ]
+    },
+    {
+      "id": "wcc-launchpad-30",
+      "name": "WCC Launchpad 30",
+      "shortName": "WCC Launchpad 30",
+      "organizer": "WeCodeCoders",
+      "domain": ["Agentic AI", "Open Innovation", "Education"],
+      "teamSize": "1–4 members",
+      "mode": "Online",
+      "prize": "Pre-placement offers & prizes worth ₹50,000",
+      "link": "",
+      "color": "teal",
+      "rounds": [
+        {
+          "name": "Main Hackathon (30 hours)",
+          "start": "2026-10-04T10:00:00+05:30",
+          "end": "2026-10-05T16:00:00+05:30",
+          "mode": "Online",
+          "description": "A 30-hour build sprint. Teams of 1–4 build and submit a functional product under Agentic AI, Open Innovation or Education."
+        }
+      ]
+    },
+    {
+      "id": "arvexis-2026",
+      "name": "ARVEXIS – Case Study Presentation",
+      "shortName": "ARVEXIS",
+      "organizer": "E.G.S Pillay Engineering College — Dept. of AI & Data Science, Skylark Association",
+      "domain": ["Applied AI", "Sustainability", "Climate Technology"],
+      "teamSize": "1–2 members",
+      "mode": "Round 3 online; other rounds not specified",
+      "prize": "₹5,000 / ₹3,000 / ₹1,000 + certificates",
+      "link": "",
+      "color": "amber",
+      "rounds": [
+        {
+          "name": "Registration Deadline",
+          "start": "2026-10-05T00:00:00+05:30",
+          "end": "2026-10-05T00:00:00+05:30",
+          "mode": "—",
+          "description": "Last date to register for the International Symposium on Humanizing Technology, theme: AI in Climate Resilience."
+        },
+        {
+          "name": "Round 1 — Case Study Analysis",
+          "start": "2026-10-06T00:00:00+05:30",
+          "end": "2026-10-06T00:00:00+05:30",
+          "mode": "Not specified",
+          "description": "Analyse a real-world SDG-linked climate case study: core problem, root causes, stakeholders, limitations. Shortlisting based on depth of analysis. (Exact date not published yet — placeholder, edit once announced.)"
+        },
+        {
+          "name": "Round 2 — Solution Development & Presentation",
+          "start": "2026-10-13T00:00:00+05:30",
+          "end": "2026-10-13T00:00:00+05:30",
+          "mode": "Not specified",
+          "description": "Prepare a 5-slide deck: Problem, SDG connection, proposed solution, technology used, feasibility & expected impact. (Placeholder date — edit once announced.)"
+        },
+        {
+          "name": "Round 3 — Final Pitch & Q&A",
+          "start": "2026-10-20T00:00:00+05:30",
+          "end": "2026-10-20T00:00:00+05:30",
+          "mode": "Online",
+          "description": "Finalists pitch (5–7 min) followed by Q&A (3–5 min) before the jury. Judged on analysis, innovation, feasibility, impact, SDG alignment and presentation. (Placeholder date — edit once announced.)"
+        }
+      ]
+    },
+    {
+      "id": "iit-bombay-agentic-ai",
+      "name": "Agentic AI Hackathon — IIT Bombay",
+      "shortName": "IIT Bombay",
+      "organizer": "Indian Institute of Technology, Bombay",
+      "domain": ["Artificial Intelligence", "AI Engineering", "Agentic AI"],
+      "teamSize": "1–3 members",
+      "mode": "Online → Offline (IIT Bombay)",
+      "prize": "",
+      "link": "",
+      "color": "indigo",
+      "rounds": [
+        {
+          "name": "Registration Deadline",
+          "start": "2026-09-05T00:27:00+05:30",
+          "end": "2026-09-05T00:27:00+05:30",
+          "mode": "—",
+          "description": "Last date to register."
+        },
+        {
+          "name": "Round 1 — Build the Solution",
+          "start": "2026-09-02T22:00:00+05:30",
+          "end": "2026-09-08T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Tackle a given problem domain with an Agentic AI solution capable of reasoning, planning, using tools and taking meaningful actions. Strongest ideas are shortlisted for the finale."
+        },
+        {
+          "name": "Round 2 — Prototype & Pitch (Alumination 2026)",
+          "start": "2026-10-15T22:08:00+05:30",
+          "end": "2026-10-31T22:09:00+05:30",
+          "mode": "Offline — IIT Bombay",
+          "description": "Shortlisted teams turn their idea into a working prototype and showcase approach, implementation, agentic architecture and impact, followed by Q&A."
+        }
+      ]
+    },
+    {
+      "id": "morrow-1-0",
+      "name": "Morrow 1.0",
+      "shortName": "Morrow 1.0",
+      "organizer": "Makers Need More (MnM)",
+      "domain": ["Software Development"],
+      "teamSize": "1–4 members",
+      "mode": "Online (Rounds 1–2); final round mode not specified",
+      "prize": "",
+      "link": "",
+      "color": "rose",
+      "rounds": [
+        {
+          "name": "Registration Deadline",
+          "start": "2026-08-31T00:00:00+05:30",
+          "end": "2026-08-31T00:00:00+05:30",
+          "mode": "—",
+          "description": "Last date to register."
+        },
+        {
+          "name": "Round 1 — Pitch Your Ideas",
+          "start": "2026-09-01T20:34:00+05:30",
+          "end": "2026-09-05T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Submit a PPT, video, DOCX or other supporting material via Unstop. Results declared 15 September 2026."
+        },
+        {
+          "name": "Round 2 — Project & Prototype Submissions",
+          "start": "2026-09-16T00:00:00+05:30",
+          "end": "2026-09-20T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Submit live URLs, prototypes and GitHub repositories. Results declared 25 September 2026."
+        },
+        {
+          "name": "Round 3 — Final Round",
+          "start": "2026-09-26T00:00:00+05:30",
+          "end": "2026-09-30T23:59:00+05:30",
+          "mode": "Not specified",
+          "description": "Teams present before jury members. Winners declared 1 October 2026."
+        }
+      ]
+    },
+    {
+      "id": "yc-fall-moss",
+      "name": "YC Fall 2026 x Moss: The Zero Latency Builder Sprint",
+      "shortName": "YC Fall x Moss",
+      "organizer": "HiDevs",
+      "domain": ["Software Development", "AI Engineering", "Retrieval"],
+      "teamSize": "1–2 members",
+      "mode": "Online",
+      "prize": "₹50,000",
+      "link": "",
+      "color": "teal",
+      "rounds": [
+        {
+          "name": "Registration",
+          "start": "2026-08-24T00:00:00+05:30",
+          "end": "2026-09-20T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Read the full hackathon brief, join the official WhatsApp community and register on the HiDevs platform."
+        },
+        {
+          "name": "Kickoff, Build Phase & Project Submission",
+          "start": "2026-09-06T10:00:00+05:30",
+          "end": "2026-09-20T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Build an AI application using Moss as the retrieval layer. Submit an architecture diagram, PRD, GitHub repo, deployed link and a video demo."
+        },
+        {
+          "name": "Finalists Announcement",
+          "start": "2026-09-23T21:00:00+05:30",
+          "end": "2026-09-23T22:00:00+05:30",
+          "mode": "Online",
+          "description": "Top 10 projects shortlisted on product & UX, technical execution, speed & latency, and demo quality."
+        },
+        {
+          "name": "Grand Finale",
+          "start": "2026-09-26T10:00:00+05:30",
+          "end": "2026-09-26T18:00:00+05:30",
+          "mode": "Online",
+          "description": "Finalists demo their AI application, architecture and workflow before the judging panel. Ends with final evaluation, winner announcement and awards."
+        }
+      ]
+    },
+    {
+      "id": "mhtechin-2026",
+      "name": "MHTECHIN Innovation Challenge 2026",
+      "shortName": "MHTECHIN",
+      "organizer": "MHTECHIN",
+      "domain": ["Applied AI", "Generative AI", "Cloud", "Databases"],
+      "teamSize": "2–5 members",
+      "mode": "Online",
+      "prize": "₹9,00,000 + pre-placement interviews",
+      "link": "",
+      "color": "amber",
+      "rounds": [
+        {
+          "name": "Prototype Video Submission (via Unstop)",
+          "start": "2026-08-17T22:51:00+05:30",
+          "end": "2026-09-30T22:51:00+05:30",
+          "mode": "Online",
+          "description": "Submit a pitch video covering core problem, target users, proposed solution, unique value proposition and the AI/GenAI/ML/API/cloud/database stack used. Live demo should show input, real-time AI processing, generated outputs and an admin dashboard."
+        }
+      ]
+    },
+    {
+      "id": "accenture-2026",
+      "name": "Accenture Innovation Challenge 2026",
+      "shortName": "Accenture",
+      "organizer": "Accenture",
+      "domain": [],
+      "teamSize": "1–3 members",
+      "mode": "Online → Offline (Bengaluru)",
+      "prize": "Pre-placement interviews",
+      "link": "",
+      "color": "violet",
+      "rounds": [
+        {
+          "name": "Registration Deadline",
+          "start": "2026-08-16T23:59:00+05:30",
+          "end": "2026-08-16T23:59:00+05:30",
+          "mode": "—",
+          "description": "Last date to register."
+        },
+        {
+          "name": "Round 1 — Solution Framework",
+          "start": "2026-08-13T12:00:00+05:30",
+          "end": "2026-08-18T12:00:00+05:30",
+          "mode": "Online",
+          "description": "Submit a 2–3 slide solution presentation plus a 2–3 minute video explaining your approach and demonstrating the solution."
+        },
+        {
+          "name": "Round 2 — Prototype Development",
+          "start": "2026-08-21T16:00:00+05:30",
+          "end": "2026-09-02T22:00:00+05:30",
+          "mode": "Online",
+          "description": "Shortlisted teams submit a public GitHub repo with a prototype demo video, README, architecture, dependencies and execution instructions."
+        },
+        {
+          "name": "Round 3 — Solution Discussion with AI",
+          "start": "2026-09-10T00:00:00+05:30",
+          "end": "2026-09-10T00:00:00+05:30",
+          "mode": "Live / Online",
+          "description": "A live AI-led discussion assessing technical depth, problem-solving and understanding of the chosen problem statement. (Exact date not published yet — placeholder, edit once announced.)"
+        },
+        {
+          "name": "Round 4 — Mentorship",
+          "start": "2026-09-17T00:00:00+05:30",
+          "end": "2026-09-17T00:00:00+05:30",
+          "mode": "Not specified",
+          "description": "Top 10 finalist teams receive mentorship from Accenture and industry experts to refine their solution before the finale. (Placeholder date — edit once announced.)"
+        },
+        {
+          "name": "Round 5 — Grand Finale",
+          "start": "2026-09-24T00:00:00+05:30",
+          "end": "2026-09-24T00:00:00+05:30",
+          "mode": "Offline — Bengaluru",
+          "description": "Top 10 finalists present live to Accenture leadership and a jury panel, with live demo and Q&A. (Placeholder date — edit once announced.)"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-agent-a-thon",
+      "name": "Microsoft Agent-a-Thon",
+      "shortName": "MS Agent-a-Thon",
+      "organizer": "Microsoft",
+      "domain": ["AI Agents", "Microsoft Foundry"],
+      "teamSize": "Individual",
+      "mode": "Live virtual session",
+      "prize": "Microsoft Surface Pro grand prize",
+      "link": "https://www.microsoft.com/en-us/events/local-events/microsoft-agent-a-thon",
+      "color": "indigo",
+      "rounds": [
+        {
+          "name": "Level 1: Explorer — Build your first AI agent",
+          "start": "2026-09-17T11:00:00-04:00",
+          "end": "2026-09-17T14:00:00-04:00",
+          "mode": "Live virtual (Americas)",
+          "description": "Guided, hands-on entry-level track: build your first AI agent with live real-time support."
+        },
+        {
+          "name": "Level 2: Maker — Build powerful AI agents",
+          "start": "2026-09-17T11:00:00-04:00",
+          "end": "2026-09-17T14:00:00-04:00",
+          "mode": "Live virtual (Americas)",
+          "description": "Intermediate track for building more capable AI agents, live and hands-on."
+        },
+        {
+          "name": "Level 3: Architect — Production-grade agents on Microsoft Foundry",
+          "start": "2026-09-17T11:00:00-04:00",
+          "end": "2026-09-17T14:00:00-04:00",
+          "mode": "Live virtual (Americas)",
+          "description": "Advanced track: build production-grade agents on Microsoft Foundry. Qualifies for recognition and prizes including a Surface Pro."
+        }
+      ]
+    },
+    {
+      "id": "aibuilderbcup",
+      "name": "AIBuilderBCup",
+      "shortName": "AIBuilderBCup",
+      "organizer": "AIBuilderBCup (JAPAC)",
+      "domain": ["Artificial Intelligence"],
+      "teamSize": "Team",
+      "mode": "Online, Grand Finale offline in Singapore",
+      "prize": "",
+      "link": "",
+      "color": "teal",
+      "rounds": [
+        {
+          "name": "Registration & Team Formation",
+          "start": "2026-09-01T00:00:00+08:00",
+          "end": "2026-10-11T23:59:00+08:00",
+          "mode": "Online",
+          "description": "Form your team and register for the build."
+        },
+        {
+          "name": "Prototype Building & Submission",
+          "start": "2026-09-07T00:00:00+08:00",
+          "end": "2026-10-18T23:59:00+08:00",
+          "mode": "Online",
+          "description": "Build your prototype and prepare it for submission."
+        },
+        {
+          "name": "Prototype Submission Deadline",
+          "start": "2026-10-18T23:59:00+08:00",
+          "end": "2026-10-18T23:59:00+08:00",
+          "mode": "Online",
+          "description": "Final cut-off to submit your prototype."
+        },
+        {
+          "name": "Evaluation Phase",
+          "start": "2026-10-19T00:00:00+08:00",
+          "end": "2026-11-06T23:59:00+08:00",
+          "mode": "Online",
+          "description": "Judges evaluate all submitted prototypes."
+        },
+        {
+          "name": "Finalists Announcement",
+          "start": "2026-11-07T00:00:00+08:00",
+          "end": "2026-11-07T00:00:00+08:00",
+          "mode": "Online",
+          "description": "Finalist teams are announced."
+        },
+        {
+          "name": "Grand Finale — Demo Day, Singapore",
+          "start": "2026-12-04T00:00:00+08:00",
+          "end": "2026-12-04T00:00:00+08:00",
+          "mode": "Offline — Singapore",
+          "description": "Finalists demo live on stage at Demo Day in Singapore."
+        }
+      ]
+    },
+    {
+      "id": "ai-foundational-learning",
+      "name": "AI for Foundational Learning Hackathon",
+      "shortName": "AI Foundational Learning",
+      "organizer": "Not specified",
+      "domain": ["AI in Education"],
+      "teamSize": "Team",
+      "mode": "Not specified",
+      "prize": "Claude credits for Top 10",
+      "link": "",
+      "color": "amber",
+      "rounds": [
+        {
+          "name": "Ideate Stage Begins — Registrations Open",
+          "start": "2026-09-07T00:00:00+05:30",
+          "end": "2026-09-07T00:00:00+05:30",
+          "mode": "Online",
+          "description": "Registrations open for the Ideate stage."
+        },
+        {
+          "name": "AMA",
+          "start": "2026-09-14T00:00:00+05:30",
+          "end": "2026-09-14T00:00:00+05:30",
+          "mode": "Online",
+          "description": "Expert-led session to unpack the challenge and answer questions about the hackathon."
+        },
+        {
+          "name": "Ideate Stage Concludes",
+          "start": "2026-09-27T23:59:00+05:30",
+          "end": "2026-09-27T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Deadline to submit your idea proposal."
+        },
+        {
+          "name": "Build Stage Begins — Top 30 Announced",
+          "start": "2026-10-10T00:00:00+05:30",
+          "end": "2026-10-10T00:00:00+05:30",
+          "mode": "Online",
+          "description": "Top 30 teams begin building working prototypes."
+        },
+        {
+          "name": "Build Stage Concludes",
+          "start": "2026-11-01T23:59:00+05:30",
+          "end": "2026-11-01T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Deadline to submit working prototypes using frontier AI, real-world education resources and expert mentorship."
+        },
+        {
+          "name": "Final Stage Begins — Top 10 Announced",
+          "start": "2026-11-10T00:00:00+05:30",
+          "end": "2026-11-10T00:00:00+05:30",
+          "mode": "Online",
+          "description": "Strongest prototypes are refined for the finale. Additional Claude credits provided to the Top 10."
+        },
+        {
+          "name": "Grand Finale",
+          "start": "2026-11-18T00:00:00+05:30",
+          "end": "2026-11-18T00:00:00+05:30",
+          "mode": "Not specified",
+          "description": "Top 10 teams present to the jury. Top 3 winners announced, plus 5 standout ideas from the Ideate stage."
+        }
+      ]
+    },
+    {
+      "id": "fund-my-crazy-2",
+      "name": "Fund My Crazy 2.0 with Google Gemini",
+      "shortName": "Fund My Crazy 2.0",
+      "organizer": "Google Gemini",
+      "domain": ["Urban Design", "Generative AI"],
+      "teamSize": "Individual",
+      "mode": "Online",
+      "prize": "Up to ₹1 Cr*",
+      "link": "https://fundmycrazy.com/T&C.html",
+      "color": "rose",
+      "rounds": [
+        {
+          "name": "Idea Submission",
+          "start": "2026-09-10T00:00:00+05:30",
+          "end": "2026-09-15T23:59:00+05:30",
+          "mode": "Online",
+          "description": "Answer 10 quick questions, pick one city element to reimagine, and include one Google Gemini-generated visual. Fields marked * are mandatory."
+        }
+      ]
+    },
+    {
+      "id": "devpost-mystery-hackathon",
+      "name": "Devpost Hackathon (rename me — edit data/hackathons.json)",
+      "shortName": "Devpost (unnamed)",
+      "organizer": "Not specified",
+      "domain": [],
+      "teamSize": "Not specified",
+      "mode": "Not specified",
+      "prize": "",
+      "link": "",
+      "color": "indigo",
+      "rounds": [
+        {
+          "name": "Submissions",
+          "start": "2026-08-26T21:30:00+05:30",
+          "end": "2026-10-30T22:30:00+05:30",
+          "mode": "Online",
+          "description": "Submission window is open. From your Devpost schedule screenshot — update the hackathon name and details in data/hackathons.json."
+        },
+        {
+          "name": "Judging",
+          "start": "2026-11-02T22:30:00+05:30",
+          "end": "2026-12-16T01:30:00+05:30",
+          "mode": "Online",
+          "description": "Judges review all submissions."
+        },
+        {
+          "name": "Winners Announced",
+          "start": "2027-01-12T01:30:00+05:30",
+          "end": "2027-01-12T01:30:00+05:30",
+          "mode": "Online",
+          "description": "Winners are announced."
+        }
+      ]
+    }
+  ]
+}

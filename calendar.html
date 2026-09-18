@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hack/Track — Calendar</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html">Hack<em>/</em>Track</a>
+    <nav class="nav">
+      <a href="index.html">Timeline</a>
+      <a href="calendar.html" class="active">Calendar</a>
+      <a href="hackathon.html">All hackathons</a>
+    </nav>
+    <span class="live-clock"></span>
+  </div>
+</header>
+
+<main class="shell">
+
+  <section class="hero" style="padding-bottom:10px;">
+    <p class="hero-eyebrow">Month view</p>
+    <h1>Every box, one hackathon.</h1>
+    <p class="lede">Tap any day to see exactly what's due — hackathon, round, time and mode.</p>
+
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input class="search-input focus-ring" type="text" placeholder="Search a hackathon — typos are fine" aria-label="Search hackathons">
+      <div class="search-results"></div>
+    </div>
+  </section>
+
+  <div class="cal-head">
+    <div class="cal-title" id="cal-title">—</div>
+    <div class="cal-nav">
+      <button class="cal-btn focus-ring" id="cal-prev" aria-label="Previous month">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
+      <button class="cal-today-btn focus-ring" id="cal-today">Today</button>
+      <button class="cal-btn focus-ring" id="cal-next" aria-label="Next month">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="cal-grid" id="cal-dow"></div>
+  <div class="cal-grid" id="cal-grid" style="margin-top:8px;">
+    <div class="skeleton"></div>
+  </div>
+
+  <div class="legend" id="legend"></div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell">Everything here is generated from <code>data/hackathons.json</code> — edit that one file to add, remove or update a hackathon.</div>
+</footer>
+
+<div class="drawer-backdrop" id="drawer-backdrop"></div>
+<div class="drawer" id="drawer">
+  <button class="drawer-close" id="drawer-close" aria-label="Close">&times;</button>
+  <h3 id="drawer-date"></h3>
+  <div id="drawer-body"></div>
+</div>
+
+<script src="js/core.js"></script>
+<script src="js/calendar.js"></script>
+</body>
+</html>
